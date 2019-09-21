@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A5A3A3"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <include
+        layout="@layout/action_bar"
+        android:id="@+id/action_bar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player 1: 0"
+            android:layout_marginLeft="5dp"
+            android:textColor="#143D03"
+            android:textSize="20dp"
+            android:freezesText="true"
+            android:id="@+id/player_1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/player_2"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#143D03"
+            android:text="Player 2: 0"
+            android:freezesText="true"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#707375"
+            android:id="@+id/button_00"
+            android:elevation="10dp"
+            android:padding="10dp"
+            android:background="@drawable/btn_file"
+            android:freezesText="true"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:textSize="60dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#707375"
+            android:id="@+id/button_01"
+            android:elevation="10dp"
+            android:padding="10dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/btn_file"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:textSize="60dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:textColor="#707375"
+            android:elevation="10dp"
+            android:padding="10dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/btn_file"
+            android:id="@+id/button_02"
+            android:textSize="60dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#707375"
+            android:id="@+id/button_10"
+            android:background="@drawable/btn_file"
+            android:freezesText="true"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:textSize="60dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button_11"
+            android:textColor="#707375"
+            android:background="@drawable/btn_file"
+            android:freezesText="true"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:textSize="60dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button_12"
+            android:textColor="#707375"
+            android:freezesText="true"
+            android:layout_margin="2dp"
+            android:background="@drawable/btn_file"
+            android:layout_weight="1"
+            android:textSize="60dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#707375"
+            android:layout_margin="2dp"
+            android:background="@drawable/btn_file"
+            android:freezesText="true"
+            android:id="@+id/button_20"
+            android:textSize="60dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button_21"
+            android:layout_margin="2dp"
+            android:textColor="#707375"
+            android:freezesText="true"
+            android:background="@drawable/btn_file"
+            android:layout_weight="1"
+            android:textSize="60dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button_22"
+            android:layout_margin="2dp"
+            android:textColor="#707375"
+            android:freezesText="true"
+            android:background="@drawable/btn_file"
+            android:layout_weight="1"
+            android:textSize="60dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
