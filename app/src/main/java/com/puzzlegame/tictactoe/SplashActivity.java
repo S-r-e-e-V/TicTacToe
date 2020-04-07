@@ -1,4 +1,4 @@
-package com.example.tictactoe;
+package com.puzzlegame.tictactoe;
 
 import android.content.Intent;
 import android.os.Build;
@@ -20,16 +20,16 @@ public class SplashActivity extends AppCompatActivity {
             Window w = getWindow();
             w.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
             w.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-            w.setStatusBarColor(this.getResources().getColor(R.color.colorPrimaryDark));
+            w.setStatusBarColor(this.getResources().getColor(R.color.black));
         }
 
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i=new Intent(SplashActivity.this,MainActivity.class);
+                Intent i=new Intent(SplashActivity.this,first.class);
                 startActivity(i);
                 finish();
             }
-        },3000);
+        },2000);
     }
 }

@@ -3,4 +3,10 @@
     <color name="colorPrimary">#034E42</color>
     <color name="colorPrimaryDark">#011611</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="background_color">#3B52DF</color>
+    <color name="text_color">#7580A6</color>
+    <color name="black">#000000</color>
+    <color name="status_bar">#161E33</color>
+    <color name="first_xml_heading_1">#748CCA</color>
+    <color name="first_xml_heading_2">#616D95</color>
 </resources>

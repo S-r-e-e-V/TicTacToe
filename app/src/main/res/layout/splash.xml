@@ -9,8 +9,13 @@
         android:layout_height="match_parent"
         android:text="Tic Tac Toe"
         android:gravity="center"
-        android:textSize="40dp"
-        android:textColor="#000"/>
+        android:textSize="80dp"
+        android:fontFamily="cursive"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#904C4C4C"
+        android:shadowDx="12"
+        android:shadowDy="12"
+        android:shadowRadius="8"/>
 
 
 </LinearLayout>

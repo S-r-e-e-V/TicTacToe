@@ -5,14 +5,14 @@
     android:layout_marginBottom="10dp"
     android:padding="10dp"
     android:elevation="10dp"
-    android:background="#00463D">
+    android:background="@drawable/background">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/title"
         android:text="TicTacToe"
-        android:textColor="#92B1AC"
+        android:textColor="@color/text_color"
         android:textSize="30dp"/>
 
 </androidx.appcompat.widget.Toolbar>
